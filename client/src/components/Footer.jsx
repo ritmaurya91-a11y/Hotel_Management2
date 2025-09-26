@@ -1,12 +1,12 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-
+import applogo from "../assets/HoYo1.png"
 const Footer = () => {
     return (
         <div className='bg-[#F6F9FC] text-gray-500/80 pt-8 px-6 md:px-16 lg:px-24 xl:px-32 mt-30'>
             <div className='flex flex-wrap justify-between gap-12 md:gap-6'>
                 <div className='max-w-80'>
-                    <img src={assets.logo} alt="logo" className='mb-4 h-8 md:h-9 invert opacity-80' />
+                    <img src={applogo} alt="logo" className='w-60 h-40 mb-4 invert opacity-80' />
                     <p className='text-sm'>
                         Discover the world's most extraordinary places to stay, from boutique hotels to luxury villas and private islands.
                     </p>
